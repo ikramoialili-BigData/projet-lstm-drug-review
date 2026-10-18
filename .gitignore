@@ -1,0 +1,16 @@
+# Dataset files must NOT be committed (license restrictions)
+data/
+*.csv
+!results/metrics.csv
+!results/summary_final.csv
+*.tsv
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Temporary outputs
+results_quick/
+results_export.zip
+*.tmp
