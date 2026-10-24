@@ -1,0 +1,4 @@
+model,seeds,test accuracy,test macro-F1,trainable params,cell params,train time / run (s),epochs run,setting
+Vanilla LSTM,3,0.8052 +/- 0.0032,0.6082 +/- 0.0165,3417219,394240,927.3,8.0,"adam, lr=0.001, xavier, bs=128, H=256, cw=False"
+CIFG,3,0.7337 +/- 0.0111,0.6146 +/- 0.0021,3121283,98688,488.0,8.0,"adam, lr=0.001, xavier, bs=128, H=128, cw=True"
+WMC,3,0.8098 +/- 0.0037,0.6174 +/- 0.0110,3613827,590848,1061.4,8.0,"adam, lr=0.001, xavier, bs=128, H=256, cw=False"
