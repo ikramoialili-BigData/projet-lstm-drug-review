@@ -1,0 +1,116 @@
+{
+ "config": {
+  "cell": "cifg",
+  "embed_dim": 128,
+  "hidden_size": 128,
+  "num_layers": 1,
+  "bidirectional": false,
+  "pooling": "last",
+  "dropout": 0.3,
+  "optimizer": "rmsprop",
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "momentum": 0.9,
+  "init": "xavier",
+  "forget_bias": 1.0,
+  "batch_size": 128,
+  "epochs": 8,
+  "patience": 2,
+  "grad_clip": 1.0,
+  "use_class_weights": false,
+  "train_fraction": 0.3,
+  "seed": 0,
+  "stage": "ofat"
+ },
+ "history": [
+  {
+   "epoch": 1,
+   "train_loss": 0.7407840305683123,
+   "train_acc": 0.7030998851894374,
+   "val_loss": 0.6710673426748187,
+   "val_acc": 0.7308288388816564,
+   "val_macro_f1": 0.4866285855738637,
+   "time_s": 59.65087294578552
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6307342942738232,
+   "train_acc": 0.7569230769230769,
+   "val_loss": 0.6627358981735478,
+   "val_acc": 0.7613911102845453,
+   "val_macro_f1": 0.4793918732200399,
+   "time_s": 59.65121412277222
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.5825926557118255,
+   "train_acc": 0.779150401836969,
+   "val_loss": 0.7427008143287769,
+   "val_acc": 0.7569276548261112,
+   "val_macro_f1": 0.47065888208143525,
+   "time_s": 59.90175151824951
+  }
+ ],
+ "test_confusion": [
+  [
+   10367,
+   3,
+   3127
+  ],
+  [
+   2438,
+   0,
+   2391
+  ],
+  [
+   6985,
+   0,
+   28455
+  ]
+ ],
+ "class_names": [
+  "negative",
+  "neutral",
+  "positive"
+ ],
+ "row": {
+  "exp_id": "cifg_h128_L1_last_rmsprop_lr0.001_xavier_bs128_nocw_frac0.3_seed0_8d59dd",
+  "stage": "ofat",
+  "cell": "cifg",
+  "embed_dim": 128,
+  "hidden_size": 128,
+  "num_layers": 1,
+  "bidirectional": false,
+  "pooling": "last",
+  "dropout": 0.3,
+  "optimizer": "rmsprop",
+  "lr": 0.001,
+  "weight_decay": 0.0,
+  "momentum": 0.9,
+  "init": "xavier",
+  "forget_bias": 1.0,
+  "batch_size": 128,
+  "epochs": 8,
+  "patience": 2,
+  "grad_clip": 1.0,
+  "use_class_weights": false,
+  "train_fraction": 0.3,
+  "seed": 0,
+  "n_params": 3121283,
+  "n_params_cell": 98688,
+  "epochs_run": 3,
+  "best_epoch": 1,
+  "train_time_s": 179.2,
+  "status": "ok",
+  "val_loss": 0.6710673426748187,
+  "val_acc": 0.7308288388816564,
+  "val_macro_f1": 0.4866285855738637,
+  "test_loss": 0.6842123158687646,
+  "test_acc": 0.722054830190083,
+  "test_macro_f1": 0.48092035026204183,
+  "test_f1_negative": 0.6228858112776761,
+  "test_f1_neutral": 0.0,
+  "test_f1_positive": 0.8198752395084494,
+  "finished_at": "2026-10-19T06:19:33"
+ }
+}
