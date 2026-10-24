@@ -1,0 +1,8 @@
+# Core dependencies. On Google Colab, torch/numpy/pandas/matplotlib are preinstalled;
+# the notebooks only install what is missing.
+torch>=2.0
+numpy>=1.23
+pandas>=1.5
+matplotlib>=3.6
+# Only needed to run the tests in tests/ (optional)
+pytest>=7.0
